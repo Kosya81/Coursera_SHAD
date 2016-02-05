@@ -22,5 +22,5 @@ x = np.array(data)
 clf = SVC(C=100000 ,kernel='linear',random_state=241)
 clf.fit(x, y)
 
-#выбираем индекчы опорных векторов
+#выбираем индексы опорных векторов
 sv_index = clf.support_ 
